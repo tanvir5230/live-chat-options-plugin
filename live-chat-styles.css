@@ -1,0 +1,37 @@
+#live-chat-button {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  background-color: #e27d60;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 0;
+  position: fixed;
+  z-index: 1000;
+  bottom: 45%;
+  right: 0px;
+  cursor: pointer;
+}
+#live-chat-panel {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  bottom: 45%;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#live-chat-header a {
+  font-weight: bold;
+  color: red;
+}
+#live-chat-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#live-chat-body img:nth-child(1) {
+  margin-bottom: 5px;
+}
